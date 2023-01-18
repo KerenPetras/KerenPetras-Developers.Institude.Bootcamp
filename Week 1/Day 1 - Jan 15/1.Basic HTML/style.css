@@ -1,0 +1,35 @@
+*{
+    background-color:floralwhite;
+}
+p {
+    background-color: aquamarine;
+}
+
+
+/*all the p inside the section */
+section p {
+    background-color: pink;
+    color:white;
+}
+
+/*direct child*/
+
+section > p{
+font-family: 'Courier New', Courier, monospace;
+}
+
+h2~p{
+    font-size: 10px;
+}
+
+/*id is unique - an element can have only one id*/
+
+#titleOne {
+    border:2px solid orange;
+}
+
+
+.paras {
+    color: violet;
+
+}

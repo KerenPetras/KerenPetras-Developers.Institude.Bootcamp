@@ -1,0 +1,30 @@
+img{
+    width: 600px;
+    height: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid orange;
+}
+
+#picture h2{
+text-align: center;
+}
+
+#redline {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#lions table {
+    text-align: center;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+#lions td{
+    padding: 20px;
+    ;
+}
