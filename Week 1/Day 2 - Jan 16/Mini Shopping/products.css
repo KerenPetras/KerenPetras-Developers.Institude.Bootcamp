@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: font-family: 'Luckiest Guy', cursive;
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #e7e7e7; /* Grey */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+button:hover{
+    background-color: #4CAF50;
+    transition: 0.3s;
+}
+
+ul,footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+header nav a{
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.items {
+    margin: 65px;
+    padding:0;
+    text-align: center;
+}
+
+#item-container{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.items img{
+    height: 135px;
+    width: 175px;
+}
+
+  footer{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
