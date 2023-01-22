@@ -7,7 +7,7 @@
 
 i{
     color: white;
-    size: 30px;
+    size: 50px;
 }
 
 a {
@@ -36,7 +36,7 @@ height: 80%;
 padding-bottom: 55px;
 }
 
-ul,footer {
+nav,footer {
     list-style-type: none;
     margin: 0;
     padding: 0;
