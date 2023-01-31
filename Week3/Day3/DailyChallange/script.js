@@ -10,17 +10,7 @@
 // or input event
 
 // Hint : Check out keycodes in Javascript or Regular Expressions  
-const inputField = document.querySelector("#inputField");
-
-inputField.addEventListener("input", function(e) {
-  let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let newValue = "";
-  
-  for (let i = 0; i < this.value.length; i++) {
-    if (letters.indexOf(this.value[i]) !== -1) {
-      newValue += this.value[i];
-    }
-  }
-  
-  this.value = newValue;
-});
+  let input = document.getElementById("lettersOnly");
+  input.addEventListener("input", function() {
+    this.value = this.value.replace(/[^a-zA-Z]+/g, "");
+  });
