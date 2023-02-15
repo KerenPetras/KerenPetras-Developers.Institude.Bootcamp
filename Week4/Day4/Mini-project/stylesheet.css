@@ -1,0 +1,7 @@
+.cardRobot {
+    width: auto;
+    margin: 1rem;
+    border: 0.4rem solid black;
+    display: inline-block;
+    background-image: url(./card-pattern.png);
+}
