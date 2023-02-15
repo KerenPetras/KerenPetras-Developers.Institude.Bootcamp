@@ -1,0 +1,36 @@
+Mini-Project - RobotList
+* HTML : 
+1)Table for the cards + NavBar
+NavBar + Icon
+
+* Javascript : 
+1) Create Table // Option if not through the Html itself
+2) Filter Function
+  
+* Css Design :
+1) Nav Bar + Search
+2) Cards Sizes
+
+---
+Lyse's List 
+* HTML 
+1) navbar --> navbar
+2) Icon
+3) Input
+4) Section (div)
+
+* CSS
+- navbar --> flex --> direction row 
+- Section --> grid --> colum3 -->row auto
+- Inside each robot --> flex --> direction column --> align-items --> justify content 
+
+* Javascript
+- form, eventlistener "input" -> callback function searchRobot
+- searchRobot : > filter only the robot that contain this word
+> transform intput and the name of the robot to lowercase
+> includes method to check if it contains the word x.includes("nic")
+" x would be the text contained
+
+
+- displayRobot, on the array given do a loop
+- for each robot, div, give div a class, create img, 2 paragraphs, append on the section

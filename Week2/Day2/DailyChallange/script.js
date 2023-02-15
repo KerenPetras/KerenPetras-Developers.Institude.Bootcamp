@@ -35,6 +35,6 @@ let word = sentence.split(' ');
 console.log(word[3]);// wordNot // index 3 is smaller then idex 5
 console.log(word[5]); // wordBad // index 5 is bigger then index 3 
 
-if(wordBad>wordNot){
+if(wordBad>wordNot && wordNot!== -1 && wordBad!== -1){
 console.log("The movie is good I like it")
 }else  {console.log(sentence)};

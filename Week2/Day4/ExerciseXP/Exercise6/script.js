@@ -20,6 +20,8 @@ function hotelCost() {
     console.log(`The hotel cost for ${nights} nights is: $${cost}.`);
     return cost;
   }
+
+  console.log(typeof nights());
 //hotelCost(); //TEST
 
 // Define a function called planeRideCost().
