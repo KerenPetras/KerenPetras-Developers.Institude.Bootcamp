@@ -5,6 +5,8 @@
 // const fruits = ["apple", "orange"];
 // const vegetables = ["carrot", "potato"];
 
+Output:["bread", "carrot", "potato", "chicken", "apple", "orange"]
+//The spread operator "...", when used with an array, expands the elements of that array into a new array. In the given code snippet, the spread operator is used to expand the elements of the "vegetables" and "fruits" arrays and add them to the "result" array. The "result" array is then printed to the console, which outputs ["bread", "carrot", "potato", "chicken", "apple", "orange"].
 
 // const result = ['bread', ...vegetables, 'chicken', ...fruits];
 // console.log(result);
@@ -18,10 +20,12 @@
 
 // ["U", "S", "A"]
 
+Output:
+["U", "S", "A"]
+//In this code snippet, the spread operator is used to expand the characters of the "country" string into an array. The resulting array contains the characters of the string as separate elements. When this array is printed to the console, it outputs ["U", "S", "A"].
 
 // ------Bonus------
 // let newArray = [...[,,]];
 // console.log(newArray);
 
-//[]
-
+// []
