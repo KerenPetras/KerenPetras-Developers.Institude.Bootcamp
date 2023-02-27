@@ -5,5 +5,6 @@
 //        //code
 //        console.log(input) // [ 1, 4, 9, 16, 25]
 //     ```
-
-
+Number.forEach(eleme,indexedDB => {
+    
+});
