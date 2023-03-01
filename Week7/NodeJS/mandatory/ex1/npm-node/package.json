@@ -8,8 +8,5 @@
     "start": "node main.js"
   },
   "author": "keren petras",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.20"
-  }
+  "license": "ISC"
 }

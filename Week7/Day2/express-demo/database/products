@@ -1,0 +1,9 @@
+const products = [
+    {name:'iphone', price:800},
+    {name:'galaxy', price:700},
+    {name:'iwatch', price:500}
+];
+
+module.exports = {
+    products()
+}
