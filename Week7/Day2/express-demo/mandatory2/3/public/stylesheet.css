@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+
+  h1{
+    color: red;
+    border-style: dashed;
+    border-color: blue;
+  }
+
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #0069d9;
+  }
