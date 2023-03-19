@@ -1,0 +1,15 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    border-color: blue;
+    border-style:dotted;
+    color:red ;
+}
+
+p {
+    font-size: 25px;
+}
