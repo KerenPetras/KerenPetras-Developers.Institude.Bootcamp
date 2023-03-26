@@ -1,12 +1,11 @@
-import Bye from "./Bye";
-
-const Hello = () => {
+import "./Hello.css";
+const Hello = (props) => {
+    console.log(props.user);
+    // const {email,username} = props;
     return(
-        <>
-        <h1>Hello again</h1>
-        <h3>blah blah</h3>
-        <Bye />
-        </>
+        <div>
+            <h3>Hello {props.user.email} </h3>
+        </div>
     )
 }
 

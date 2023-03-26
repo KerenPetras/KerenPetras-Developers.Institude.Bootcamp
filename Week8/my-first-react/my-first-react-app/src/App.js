@@ -4,20 +4,25 @@ import Hello from './Hello';
 import Bye from './Bye';
 
 function App() {
-  // const name = 'John'
-  // const lastname = 'Due'
+  const name = 'John'
+  const lastname = 'Due'
+  //props
   const users = [
     {email:'john@gmail.com', username:'johnny'},
     {email:'keren@gmail.com', username:'karen'},
     {email:'deigo@gmail.com', username:'deigo'},
   ]
   return (
-    <div>
-      {users.map(item => {
-        return (
-          <h5> Hello, {item.email} {item.username} </h5>
-        );
-      })}
+    <div className='App'>
+      <header className='App-header'>
+        {
+        users.map((item,i) => {
+          return(
+            <Hello user={item} key={i} />
+          )
+        })
+        }
+      </header>
     </div>
   );
 }
