@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'tachyons';
 import Hello from './Hello';
 import Bye from './Bye';
 
@@ -18,7 +19,7 @@ function App() {
         {
         users.map((item,i) => {
           return(
-            <Hello user={item} key={i} />
+            <Hello a={item} key={i} />
           )
         })
         }
